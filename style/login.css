@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+  font-family: "Heebo", sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-image: url("../images/vecteezyAutumnSceneryBackgroundfv0721_generated.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .formDiv {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+main .formDiv a {
+  text-decoration: none;
+  color: black;
+}
+main .formDiv .leftDiv {
+  flex: 1;
+}
+main .formDiv .leftDiv img {
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+main .formDiv .leftDiv form {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: white;
+}
+main .formDiv .leftDiv form .topSection {
+  margin: 20px 10px;
+}
+main .formDiv .leftDiv form .topSection h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .formDiv .leftDiv form .inputGroup {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(255, 234, 177, 0.5137254902);
+  margin: 10px 5px;
+}
+main .formDiv .leftDiv form .inputGroup input {
+  color: rgb(10, 10, 10);
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+main .formDiv .leftDiv form .inputGroup input:active, main .formDiv .leftDiv form .inputGroup input:focus {
+  outline: none;
+}
+main .formDiv .leftDiv form .inputGroup input::-moz-placeholder {
+  color: rgb(116, 116, 116);
+}
+main .formDiv .leftDiv form .inputGroup input:-ms-input-placeholder {
+  color: rgb(116, 116, 116);
+}
+main .formDiv .leftDiv form .inputGroup input::placeholder {
+  color: rgb(116, 116, 116);
+}
+main .formDiv .leftDiv form .inputGroup i {
+  padding: 10px;
+}
+main .formDiv .leftDiv form .inputGroup .shake {
+  -webkit-animation: 0.5s ease-out 0s 1 shakeAnimation;
+          animation: 0.5s ease-out 0s 1 shakeAnimation;
+}
+@-webkit-keyframes shakeAnimation {
+  0% {
+    transform: rotate(10deg);
+    color: red;
+  }
+  20% {
+    transform: rotate(0deg);
+    color: rgb(116, 116, 116);
+  }
+  40% {
+    transform: rotate(10deg);
+    color: red;
+  }
+  60% {
+    transform: rotate(0deg);
+    color: rgb(116, 116, 116);
+  }
+  80% {
+    transform: rotate(10deg);
+    color: red;
+  }
+  100% {
+    transform: rotate(0deg);
+    color: rgb(116, 116, 116);
+  }
+}
+@keyframes shakeAnimation {
+  0% {
+    transform: rotate(10deg);
+    color: red;
+  }
+  20% {
+    transform: rotate(0deg);
+    color: rgb(116, 116, 116);
+  }
+  40% {
+    transform: rotate(10deg);
+    color: red;
+  }
+  60% {
+    transform: rotate(0deg);
+    color: rgb(116, 116, 116);
+  }
+  80% {
+    transform: rotate(10deg);
+    color: red;
+  }
+  100% {
+    transform: rotate(0deg);
+    color: rgb(116, 116, 116);
+  }
+}
+main .formDiv .leftDiv form .inputGroup #showPassword {
+  color: rgb(116, 116, 116);
+  cursor: pointer;
+}
+main .formDiv .leftDiv form .inputGroup #hidePassword {
+  display: none;
+}
+main .formDiv .leftDiv form .buttonGroup {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #dddddd;
+  margin: 10px 5px;
+}
+main .formDiv .leftDiv form .buttonGroup input {
+  color: #E25600;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+main .formDiv .leftDiv form .buttonGroup input:active, main .formDiv .leftDiv form .buttonGroup input:focus {
+  outline: none;
+}
+main .formDiv .leftDiv form .buttonGroup input::-moz-placeholder {
+  color: rgb(116, 116, 116);
+}
+main .formDiv .leftDiv form .buttonGroup input:-ms-input-placeholder {
+  color: rgb(116, 116, 116);
+}
+main .formDiv .leftDiv form .buttonGroup input::placeholder {
+  color: rgb(116, 116, 116);
+}
+main .formDiv .leftDiv form .buttonGroup span {
+  padding: 10px;
+}
+main .formDiv .leftDiv form .buttonGroup #showPassword {
+  color: rgb(116, 116, 116);
+  cursor: pointer;
+}
+main .formDiv .leftDiv form .fyp {
+  margin: 10px;
+}
+main .formDiv .leftDiv form .authorTypes {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+main .formDiv .leftDiv form .authorTypes a {
+  text-align: center;
+  color: white;
+  margin: 4px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+main .formDiv .leftDiv form .authorTypes a.google {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.3647058824);
+}
+main .formDiv .leftDiv form .authorTypes a.facebook {
+  background-color: #3A559F;
+}
+main .formDiv .leftDiv .logo {
+  -webkit-animation: 0.5s ease-out 0s 1 logoAnimation;
+          animation: 0.5s ease-out 0s 1 logoAnimation;
+}
+@-webkit-keyframes logoAnimation {
+  0% {
+    transform: translateY(0%) scaleX(1);
+  }
+  50% {
+    transform: translateY(10%) scaleX(-1);
+  }
+  100% {
+    transform: translateY(0%) scaleX(1);
+  }
+}
+@keyframes logoAnimation {
+  0% {
+    transform: translateY(0%) scaleX(1);
+  }
+  50% {
+    transform: translateY(10%) scaleX(-1);
+  }
+  100% {
+    transform: translateY(0%) scaleX(1);
+  }
+}
+main .formDiv .rightDiv {
+  background-color: rgba(255, 234, 177, 0.5137254902);
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+main .formDiv .rightDiv img {
+  width: 25%;
+}
+main .formDiv .rightDiv .image1 {
+  -webkit-animation: 6.5s ease imageAnimation;
+          animation: 6.5s ease imageAnimation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+main .formDiv .rightDiv .image2 {
+  -webkit-animation: 7s ease imageAnimation;
+          animation: 7s ease imageAnimation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+main .formDiv .rightDiv .image3 {
+  -webkit-animation: 6.4s ease imageAnimation;
+          animation: 6.4s ease imageAnimation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+main .formDiv .rightDiv .image4 {
+  -webkit-animation: 6.6s ease imageAnimation;
+          animation: 6.6s ease imageAnimation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes imageAnimation {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes imageAnimation {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}/*# sourceMappingURL=login.css.map */
